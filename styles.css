@@ -23,6 +23,11 @@ h3,
 h4,
 p {
   text-shadow: 0px 9px 9px black;
+  font-weight: bold;
+}
+
+#placesgo{
+  text-align: center;
 }
 
 .hero {
@@ -31,6 +36,8 @@ p {
   margin: 50px auto;
   border-radius: 10%;
   border: #ffffff solid 6px;
+  background: rgb(251,79,20);
+  background: linear-gradient(90deg, rgba(251,79,20,1) 0%, rgba(173,44,0,1) 46%, rgba(0,34,68,1) 74%, rgba(0,34,68,1) 100%);
   background-image: url(img/aurora.jpg);
   background-size: cover;
   background-position: center; /* Center the image */
@@ -92,6 +99,7 @@ h3 {
   border-radius: 50%;
   object-fit: cover;
   border: #e401f8 solid 6px;
+  margin: auto;
 }
 
 .playgrounds{
@@ -111,10 +119,7 @@ h3 {
 }
 
 
-.p1{
-  text-size-adjust;
-
-}
+/*for the guide*/
 
 .avatar {
   width: 150px;
@@ -134,4 +139,8 @@ h3 {
   border-bottom: 6px solid #a32477;
   border-radius: 25px;
   box-shadow: 10px 15px 15px #c2bcc2;
+}
+
+.wrapper{
+
 }
